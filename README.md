@@ -161,49 +161,6 @@ bye
 Goodbye!
 ```
 
-## How It Works
-
-1. The chatbot reads user input.
-2. The input sentence is tokenized.
-3. Words are lemmatized to their root form.
-4. A bag-of-words array is created.
-5. The trained neural network predicts the intent.
-6. The chatbot selects a response from `intents.json`.
-7. The response is displayed to the user.
-
-## Model Architecture
-
-The chatbot uses a Sequential neural network model with:
-
-- Dense layer
-- Dropout layer
-- Dense hidden layer
-- Output layer with Softmax activation
-
-The model is trained using categorical cross-entropy loss and SGD optimizer.
-
-## Skills Demonstrated
-
-- Python programming
-- Natural Language Processing
-- Deep Learning basics
-- Neural network model training
-- Intent classification
-- JSON data handling
-- Model saving and loading
-- Console application development
-
-## Future Improvements
-
-- Add a graphical user interface
-- Add speech recognition
-- Add text-to-speech response
-- Improve the dataset with more intents
-- Add real-time learning capability
-- Deploy as a web chatbot using Flask or Django
-- Connect chatbot with a database
-- Add better error handling
-
 ## Author
 **Lavanya**
 
